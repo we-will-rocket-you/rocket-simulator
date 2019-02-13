@@ -8,13 +8,11 @@ package rocketsimulator;
  *
  */
 public class RocketSimulator {
-
 	/**
 	 * @param args
 	 */
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
-
+		Rocket rocket = new Rocket();
 	}
 
 }
