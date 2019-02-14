@@ -5,9 +5,10 @@ import java.util.Vector;
 public class Body implements RocketComponent {
 	
 	double diameter;
+	double length;
 	double mass;
 	
-	Body(double diameter, Vector<Double> orientation){
+	Body(double diameter, double length, Vector<Double> orientation){
 		this.diameter = diameter;
 	}
 
