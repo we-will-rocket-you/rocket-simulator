@@ -19,6 +19,8 @@ public class Rocket {
 		RocketParts = new ArrayList<RocketComponent>();
 		position = new Vector3d();
 		orientation = new Vector3d();
+		torque = new Vector3d();
+		force = new Vector3d();
 	}
 	
 	/*
